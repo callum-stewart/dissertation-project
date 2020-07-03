@@ -4,28 +4,28 @@ System Requirements:
 MUST
 ----
 1. vuln check
-  1. output vuln urls to file or to stdout
+   1. output vuln urls to file or to stdout
 1. download as much git data as possible
 1. rebuild git repo on disk
-  1. place .git folder at ./$url/.git
+   1. place .git folder at ./$url/.git
 1. take list of target urls from stdin or from file
 
 SHOULD
 ------
 1. be multithreaded
-  1. control concurrent threads from commandline
-  1. have sensible default
+   1. control concurrent threads from commandline
+   1. have sensible default
 1. configure request options
-  1. UA
-  1. custom headers
-  1. cookies
-  1. basic auth creds
+   1. UA
+   1. custom headers
+   1. cookies
+   1. basic auth creds
 1. timeout configuration
 
 COULD
 -----
 1. proxy options
-  1. specifically tor
+   1. specifically tor
 
 Dissertation Writeup
 ====================
