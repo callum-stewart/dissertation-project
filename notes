@@ -1,0 +1,5 @@
+vuln check:
+-----------
+
+1) does .git/HEAD exist?
+2) does it contain refs?
